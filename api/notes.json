@@ -1,60 +1,9 @@
 {
-  "notes": [
-    {
-      "timestamp": "02/23/20",
-      "author": "Sally Walker",
-      "text": "This suspcet is a mean",
-      "suspect": "Farley Jones",
-      "id": 1
-    },
-    {
-      "author": "Pazia Ramirez",
-      "text": "Ayo",
-      "suspect": "Montana Howe",
-      "timestamp": 1607377220707,
-      "id": 2
-    },
-    {
-      "author": "Pazia Ramirez",
-      "text": "Ayo",
-      "suspect": "Montana Howe",
-      "timestamp": 1607377222893,
-      "id": 3
-    },
-    {
-      "author": "Jason Derulo",
-      "text": "~jason derulo~",
-      "suspect": "Alex Hane",
-      "timestamp": 1607377423688,
-      "id": 4
-    },
-    {
-      "author": "Logan",
-      "text": "bad",
-      "suspect": "Jordane West",
-      "timestamp": 1607378700221,
-      "id": 5
-    },
-    {
-      "author": "Pazia",
-      "text": "bad people ",
-      "suspect": "Rogelio Hills",
-      "timestamp": 1607442617028,
-      "id": 6
-    },
-    {
-      "author": "Pazia",
-      "text": "howdy",
-      "suspect": "Pazia",
-      "timestamp": 1607461117807,
-      "id": 7
-    },
-    {
-      "author": "Pazia",
-      "text": "Wasn't very tall",
-      "suspect": "Wilhelmine Carter",
-      "timestamp": 1607632457044,
-      "id": 8
-    }
-  ]
+    "notes": [{
+        "timestamp": "02/23/20",
+        "author": "Sally Walker",
+        "text": "This suspcet is a mean",
+        "criminalId": 1,
+        "id": 1
+    }]
 }
