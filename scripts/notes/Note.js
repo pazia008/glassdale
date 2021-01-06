@@ -7,14 +7,14 @@ export const NoteHTMLConverter = (noteObject) => {
             <div class="note__text">${ noteObject.text }</div>
             <div class="note__author">Author: ${ noteObject.author }</div>
             <div class="note__timestamp">Timestamp: ${ new Date(noteObject.timestamp).toLocaleDateString('en-US')  }</div>
+            <button id="deleteNote--${noteObject.id}">Delete</button>
         </section>
     `
 }
 
 
-//make a select element and populate with all criminals
-//change the HTML representation of the form
-//event listener to listen fora dropdown change
+
+
 //change how the note is saved
 //change how note objects are represented
 //modules being used = Note, NoteForm, NoteList, notes.json

@@ -1,4 +1,4 @@
-import { getNotes, useNotes } from "./NoteDataProvider.js";
+import { getNotes, useNotes, deleteNote } from "./NoteDataProvider.js";
 import { NoteHTMLConverter } from "./Note.js";
 import { useCriminals } from "../criminals/CriminalProvider.js";
 // Query the DOM for the element that your notes will be added to 
@@ -40,3 +40,23 @@ export const NoteList = () => {
             render(allNotes, criminals)
         })
 }
+
+eventHub.addEventListener("click", clickEvent => {
+    if (clickEvent.target.id.startsWith("deleteNote--")) {
+        const [prefix, noteId] = clickEvent.target.id.split("--")
+
+        /*
+            Invoke the function that performs the delete operation.
+
+            Once the operation is complete you should THEN invoke
+            useNotes() and render the note list again.
+        */
+        deleteNote(noteId).then(
+            () => {
+                const updatedNotes = useNotes()
+                const criminals = useCriminals()
+                render(updatedNotes, criminals)
+            }
+        )
+    }
+})

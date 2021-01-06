@@ -1,9 +1,18 @@
 {
-    "notes": [{
-        "timestamp": "02/23/20",
-        "author": "Sally Walker",
-        "text": "This suspcet is a mean",
-        "criminalId": 1,
-        "id": 1
-    }]
+  "notes": [
+    {
+      "timestamp": "02/23/20",
+      "author": "Sally Walker",
+      "text": "This suspcet is a mean",
+      "criminalId": 1,
+      "id": 1
+    },
+    {
+      "author": "Pazia Ramirez ",
+      "text": "Looking at criminals",
+      "criminalId": 16,
+      "timestamp": 1609950276867,
+      "id": 2
+    }
+  ]
 }
