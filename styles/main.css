@@ -14,3 +14,10 @@
 body {
     background-color: rgb(190, 189, 189);
 }
+
+.noteFormContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
